@@ -39,8 +39,16 @@ https://gist.githubusercontent.com/ruimendesM/cb9313c4d4b3434975a3d7a6700d1787/r
 
 Node
 Yarn / NPM
-React-Native
-Android SDK
+React-Native and React-Native cli
+Android SDK or XCode
+
+After installing the React-Native cli, having your ANDROID_HOME variable pointing to your android sdk folder
+and having one android device on your USB with debug USB mode on (developers tools), use this comand to run on it:
+
+```
+$ react-native run-android
+```
+
 
 ## Tests
 
